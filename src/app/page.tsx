@@ -18,8 +18,8 @@ const Home = () => {
 
 		setLoading(true);
 		await getAllCountries()
-			.then((e) => setCountries(e))
-			.catch((e) => setError(e))
+			.then((e) => { setCountries(e); setError("") })
+			.catch((e) => setError(e.message))
 			.finally(() => setLoading(false));
 
 	}
