@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+	width: 100%;
+	background: #667eea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+	width: 80%;
+	padding: 2rem;
+}
+
+.main-container h1 {
+	text-align: center;
+	color: #FABADA;
+}
+
+.search-container {
+	height: 60px;	 
+	width: 70%;
+	display: flex;
+	gap: 1rem;
+	margin: 2rem auto;
+}
+
+.search-container input {
+	width: 100%;
+	height: 100%;
+	padding: 0.8rem 1rem;
+	border-radius: 12px;
+	border: none;
+	font-size: 2rem;
+}
+
+.country-cards-container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 2rem;
+	width: 100%;
+	justify-content: center;
+}
+
+
+
+
+
+
