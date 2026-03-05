@@ -51,7 +51,7 @@ const Home = () => {
 
 		<div className="main-container">
 
-			<h1 className="titulo"> He vijado por el mundo y me he dado cuenta ... </h1>
+			<h1 className="titulo"> He viajado por el mundo y me he dado cuenta ... </h1>
 
 			<div className="search-container">
 				<input
